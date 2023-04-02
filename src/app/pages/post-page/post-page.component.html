@@ -1,0 +1,41 @@
+<div class="grid grid-cols-12 gap-4">
+    <div class="col-start-3 col-end-11 flex justify-between py-2 pt-12">
+        <div class="text-2xl">
+            <div class="mb-4">This is a title</div>
+            <div class="flex gap-x-4 text-xs my-4">
+                <div>Update on xx/xx/xxxx</div>
+                <div>5 minutes to read</div>
+            </div>
+            <app-tag-group></app-tag-group>
+        </div>
+        <div class="flex flex-col items-center gap-1">
+            <app-author author="Saksit.s"></app-author>
+            <app-follower-count [followerCount]="5"></app-follower-count>
+            <a class="text-xs px-3 py-1 rounded-full border text-center hover:border-neutral-800">Follow</a>
+        </div>
+    </div>
+    <div class="col-start-2 col-end-12 py-6 grid grid-cols-10 gap-x-2 border rounded-3xl my-3">
+        <div class="col-start-2 col-span-2 flex gap-x-4 mt-6">
+            <app-resize-button></app-resize-button>
+            <app-change-background-button></app-change-background-button>
+        </div>
+        <div class="col-start-2 col-end-10 my-8 text-justify">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas, officiis quia praesentium doloremque inventore dolor unde distinctio ipsum fuga sapiente aperiam beatae quasi ad consectetur. Eum culpa numquam neque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum facere, nobis soluta labore vitae unde temporibus odit? Sed cumque est, mollitia expedita necessitatibus dicta a? Pariatur blanditiis molestiae voluptatem.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora natus recusandae sed saepe laborum exercitationem dolorem ut rerum doloribus reiciendis, aliquid expedita repellendus error et deleniti fugiat porro, tenetur ipsa?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptates, accusamus incidunt minus ducimus facilis dolore voluptas iure dolor hic, quod non similique enim corporis iusto quis ea. Maiores, molestias.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit vel voluptatem mollitia! Maxime, officiis similique! Nemo non veniam quam qui ipsum accusamus. Consequuntur beatae explicabo dolorum doloremque inventore reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum qui rem voluptate expedita ea culpa laborum, reprehenderit repellendus omnis id sed enim, tempora, quos magni cumque ipsa alias nihil perspiciatis?
+            </p>
+            <img class="w-full" src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum illum, id ipsam voluptates dignissimos beatae explicabo soluta tempora dolore quisquam amet ipsum, consectetur, recusandae quas magnam non nemo ab.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem quasi sit numquam sed cupiditate velit quisquam libero sapiente, fugiat earum cumque nesciunt doloribus quam excepturi laudantium ex, tempore laborum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis magnam laboriosam consectetur error, saepe nemo natus sapiente non perferendis autem earum nostrum voluptates facilis odit inventore quos minima necessitatibus!
+            </p>
+        </div>
+    </div>
+    <div class="col-start-3 col-end-12 mt-6 text-3xl">Comments</div>
+    <div class="col-start-2 col-end-12 py-6 grid grid-cols-10 gap-x-2 border rounded-3xl mb-3">
+    </div>
+</div>
